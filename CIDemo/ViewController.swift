@@ -55,7 +55,6 @@ class ViewController: UIViewController {
         updateImageEffect(name: "CIVignette")
     }
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -67,8 +66,6 @@ class ViewController: UIViewController {
         
         //Apply processing
         applyProcessing(currentFilter: currentFilter, context: context, currentImage: currentImage!)
-        
-//        imageView.image = UIImage(named: "Beach.jpg")
     }
 }
 
