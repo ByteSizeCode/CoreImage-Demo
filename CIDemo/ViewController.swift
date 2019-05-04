@@ -30,14 +30,12 @@ class ViewController: UIViewController {
     }
     
     @IBAction func bumpDistortion(_ sender: UIButton) {
-        print("Pressed")
         updateImageEffect(name: "CIBumpDistortion")
     }
     
     @IBAction func twirlDistortion(_ sender: UIButton) {
         updateImageEffect(name: "CITwirlDistortion")
     }
-    
     
     @IBAction func sepia(_ sender: UIButton) {
         updateImageEffect(name: "CISepiaTone")
